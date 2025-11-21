@@ -1,5 +1,9 @@
 # 力扣题库 - 最长公共前缀
 ## 想法
+- python是我自己写的
+- 我爱语法糖
+- 获取字符，遍历所有列表中字符串该下标的字符是否匹配，如果不匹配则中断。
+- 这就是字典树吗。也是，单词是节点，字符连接各个节点
 ## Python
 ```python
 class Solution:
@@ -84,8 +88,34 @@ char* longestCommonPrefix(char** strs, int strsSize) {
 - 空间复杂度：O(N)O(N),消耗内存：8.05MB
 ## Java
 ```java
-
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return "";
+        }
+        
+        int minLen = strs[0].length();
+        for (String s : strs) {
+            if (s.length() < minLen) {
+                minLen = s.length();
+            }
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < minLen; i++) {
+            char c = strs[0].charAt(i);
+            for (String s : strs) {
+                if (s.charAt(i) != c) {
+                    return sb.toString();
+                }
+            }
+            sb.append(c);
+        }
+        
+        return sb.toString();
+    }
+}
 ```
 ### 复杂度
-- 时间复杂度：O(max(M, N)),执行时间：ms
-- 空间复杂度：O(M + N),消耗内存：MB
+- 时间复杂度：O(N∗M),执行时间：1ms
+- 空间复杂度：O(1),消耗内存：42.41MB
