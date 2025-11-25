@@ -16,7 +16,16 @@ class Solution:
 - 空间复杂度：O(1),消耗内存：17.66MB
 ## C
 ```c
-
+int removeElement(int* nums, int numsSize, int val) {
+    int counter = 0;
+    for (int indexFlag = 0; indexFlag < numsSize; indexFlag = indexFlag + 1) {
+        if (nums[indexFlag] != val) {
+            nums[counter] = nums[indexFlag];
+            counter = counter + 1;
+        }
+    }
+    return counter;
+}
 ```
 ### 复杂度
 - 时间复杂度：O(N),执行时间：0ms
