@@ -1,5 +1,6 @@
 # 力扣题库 - 移除元素
 ## 想法
+- 这题依然使用双指针
 ## Python
 ```python
 class Solution:
