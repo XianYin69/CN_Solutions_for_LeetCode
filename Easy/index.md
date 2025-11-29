@@ -9,3 +9,4 @@
 - [删除有序数列中的重复项](Question_7/Solution.md)
 - [移除元素](Question_8/Solution.md)
 - [找出字符串中一个匹配的下标](Question_9/Solution.md)
+- [搜索插入位置](Question_10/Solution.md)
