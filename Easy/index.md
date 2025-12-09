@@ -19,3 +19,4 @@
 - [合并两个有序数组](Question_17/Solution.md)
 - [二叉树中的遍历](Question_18/Solution.md)
 - [相同的树](Question_19/Solution.md)
+- [记录二叉树](Question_20/Solution.md)
