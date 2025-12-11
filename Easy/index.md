@@ -21,3 +21,4 @@
 - [相同的树](Question_19/Solution.md)
 - [记录二叉树](Question_20/Solution.md)
 - [二叉树最大深度](Question_21/Solution.md)
+- [将有序数组转换为二叉搜索树](Question_22/Solution.md)
