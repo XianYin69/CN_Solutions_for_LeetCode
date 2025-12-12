@@ -1,5 +1,7 @@
 # 力扣算法题库 - 简单
+
 ## 目录
+
 - [两数之和](Question_1/Solution.md)
 - [回文数](Quesiton_2/Solution.md)
 - [罗马数字转整数](Question_3/Solution.md)
@@ -22,3 +24,4 @@
 - [记录二叉树](Question_20/Solution.md)
 - [二叉树最大深度](Question_21/Solution.md)
 - [将有序数组转换为二叉搜索树](Question_22/Solution.md)
+- [平衡二叉树](Question_23/Solution.md)
