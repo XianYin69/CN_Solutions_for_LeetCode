@@ -25,3 +25,4 @@
 - [二叉树最大深度](Question_21/Solution.md)
 - [将有序数组转换为二叉搜索树](Question_22/Solution.md)
 - [平衡二叉树](Question_23/Solution.md)
+- [二叉树的最小深度](Question_24/Solution.md)
