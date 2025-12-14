@@ -1,6 +1,6 @@
 # 力扣题库 - 二叉树的最小深度
 ## 想法
-- 这里我最先想到的是DSF（深度优先搜索）但是逻辑上稍微有点问题
+- 这里我最先想到的是DFS（深度优先搜索）但是逻辑上稍微有点问题
 ## Python
 ```python
 # Definition for a binary tree node.
