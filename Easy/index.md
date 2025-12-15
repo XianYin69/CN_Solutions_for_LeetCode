@@ -27,3 +27,4 @@
 - [平衡二叉树](Question_23/Solution.md)
 - [二叉树的最小深度](Question_24/Solution.md)
 - [路径总和](Question_25/Solution.md)
+- [杨辉三角](Question_26/Solution.md)
