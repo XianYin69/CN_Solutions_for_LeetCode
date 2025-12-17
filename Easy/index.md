@@ -29,3 +29,4 @@
 - [路径总和](Question_25/Solution.md)
 - [杨辉三角I](Question_26/Solution.md)
 - [杨辉三角II](Question_27/Solution.md)
+- [买卖股票的最佳时机](Question_28/Solution.md)
