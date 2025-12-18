@@ -1,5 +1,6 @@
 # 力扣题库 - 两数相加
 ## 想法
+- 初学习链表
 ## Python
 ```python
 from typing import Optional
