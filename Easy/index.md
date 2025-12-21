@@ -30,3 +30,6 @@
 - [杨辉三角I](Question_26/Solution.md)
 - [杨辉三角II](Question_27/Solution.md)
 - [买卖股票的最佳时机](Question_28/Solution.md)
+- [只出现一次的数字](Question_30/Solution.md)
+- [环形列表](Question_31/Solution.md)
+- [二叉树的前序遍历](Question_32/Solution.md)
