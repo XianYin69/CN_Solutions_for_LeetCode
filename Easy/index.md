@@ -36,3 +36,4 @@
 - [二叉树的后序遍历](Question_33/Solution.md)
 - [相交链表](Question_34/Solution.md)
 - [Excel表格名称](Question_35/Solution.md)
+- [多数元素](Question_36/Solution.md)
